@@ -51,7 +51,14 @@ h1{text-align: center;}
     color: brown;
 }
 
-
+#submitin
+{
+    background-color: rgb(203, 148, 255);
+    border: 0px;
+    padding: 5px;
+    width: 50%;
+    height: 40px;
+}
 
 ul{ font-size: xx-large ;display: flex; margin: 5px; padding: 20px ; }
 
