@@ -5,55 +5,58 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> ToDo </title>
+    <link rel="stylesheet" href="./Css/style.css">
 </head>
 
 <body>
 
     <header>
-        <nav style="display: flex; list-style: none; margin: 0; padding: 0;">
-           
+        <nav class="nav" >
+       
                 <br> <br>
-                <img src="./img/Logo1.png" alt="Logo" width="10%" height="10%"/>
-                &nbsp;<h1 style=" font-size: 200%;"> To Do </h1>
+                <img id=logo src="./img/Logo1.png" alt="Logo"/>
+                &nbsp;<h1 id="hea1"> To Do </h1>
             
            
 
-            <ul style=" font-size: xx-large ;display: flex; margin: 5px; padding: 20px ;">
-                <li style="list-style-type:none;margin-right: 400px;"> </li>
-                <li style="margin-right: 150px;"> <a href="index.html"> Home Page </a> </li>
+            <ul>
+                <li id="li1"> </li>
+                <li id="li2"> <a href="index.html"> Home Page </a> </li>
                 <li> <a href="about.html"> About us </a> </li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <p style="font-size: xx-large; text-align:center;"><i> Welcome to ToDo, where you can manage your tasks and
+        <p id="pin"><i> Welcome to ToDo, where you can manage your tasks and
                 check their statuses.
                 <br> Below is a list of your tasks: </i></p>
 
-        <h1 style="text-align: center;"> Your Task List </h1>
-        <center style="font-size: 150%;"> 
-            <table style="border-spacing: 20px ;border: 1px solid; padding: 8px; text-align: center">
+        
+        <center> 
+            <h1> Your Task List </h1>
+            
+            <table>
                 <tr>
                     <th> Task </th>
                     <th> Status </th>
                 </tr>
 
                 <tr>
-                    <td> Lab01 </td>
-                    <td> <input type="checkbox"> complete </td>
+                    <td> Lab01 <input class="check" type="checkbox"> </td>
+                    <td class="tdred">  </td>
                 </tr>
                 <tr>
-                    <td> Lab02 </td>
-                    <td> <input type="checkbox"> complete </td>
+                    <td> Lab02 <input class="check" type="checkbox"> </td>
+                    <td class="tdgreen">  </td>
                 </tr>
                 <tr>
-                    <td> Lab03 </td>
-                    <td> <input type="checkbox"> complete </td>
+                    <td> Lab03 <input class="check" type="checkbox"> </td>
+                    <td class="tdgreen">  </td>
                 </tr>
                 <tr>
-                    <td> Lab04 </td>
-                    <td> <input type="checkbox"> complete </td>
+                    <td> Lab04 <input class="check" type="checkbox"> </td>
+                    <td class="tdgreen">  </td>
                 </tr>
             </table>
         </center>
@@ -62,7 +65,7 @@
     <br><br><br>
 
     <footer> 
-        <p style="text-align: center;"> © 2024 To Do List. All rights reserved. </p>
+        <p> © 2024 To Do List. All rights reserved. </p>
     </footer>
 
 </body>

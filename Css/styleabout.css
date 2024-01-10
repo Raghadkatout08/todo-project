@@ -1,0 +1,64 @@
+nav {display: flex; list-style: none; margin: 0; padding: 0;}
+
+#logo{ width:10%; height:10%}
+ 
+.divform
+{
+    text-align: center;
+    justify-content: center;
+    display: block;
+    display:grid;
+}
+
+#inpmess
+{
+    width:100% ;
+    height: 80px;
+    padding:12px 20px;
+    box-sizing: border-box;
+}
+
+
+#pimg
+{
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+    padding: 5%;
+    object-fit:cover;
+}
+
+#pcon
+{
+    position:relative;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+}
+
+em
+{
+    font-size:xx-large;
+    color: red;
+}
+
+h1{text-align: center;}
+
+#con1
+{
+    color: brown;
+}
+
+
+
+ul{ font-size: xx-large ;display: flex; margin: 5px; padding: 20px ; }
+
+#li1{list-style-type:none;margin-right: 400px;}
+
+#li2{ margin-right: 150px; }
+
+#pm{text-align: center;}
+
+footer{text-align: center;}
