@@ -5,70 +5,73 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title> ToDo </title>
+    <link rel="stylesheet" href="./Css/style.css">
+    <link rel="stylesheet" href="./Css/styleabout.css">
 </head>
 
 <body>
 
     <header>
-        <nav style="display: flex; list-style: none; margin: 0; padding: 0;">
-           
-                <br> <br>
-                <img src="./img/Logo1.png" alt="Logo" width="10%" height="10%"/>
-                &nbsp;<h1 style=" font-size: 200%;"> To Do </h1>
-            
-           
+        <nav class="nav">
 
-            <ul style=" font-size: xx-large ;display: flex; margin: 5px; padding: 20px ;">
-                <li style="list-style-type:none;margin-right: 400px;"> </li>
-                <li style="margin-right: 150px;"> <a href="index.html"> Home Page </a> </li>
+            <br> <br>
+            <img id="logo" src="./img/Logo1.png" alt="Logo" />
+            &nbsp;<h1 style=" font-size: 200%;"> To Do </h1>
+
+
+
+            <ul>
+                <li id="li1"> </li>
+                <li id="li2"> <a href="index.html"> Home Page </a> </li>
                 <li> <a href="about.html"> About us </a> </li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <h1> &nbsp; About Us </h1>
+        <div id="pcon">
+            
+            <p>
 
-        <h3>
-            &nbsp; &nbsp; &nbsp; I am Raghad Al-Katout, and I am a software engineer. 
-        </h3>
-            <p style="text-align: center;"><img src="./img/P1.jpg" alt="My Photo"  width="6%" height="7%"> </p>
-        <h3>
-            &nbsp; &nbsp; &nbsp; I work in the field of web development
-                    <br> &nbsp;&nbsp;&nbsp; We are here to manage your tasks and check their status.  </h3> 
-        </h3>
+                <img id="pimg" src="./img/Aboutme.jpg" alt="My Photo">
+            </p>
+            <h3>
+               <em>  Raghad Al-Katout </em>  <br><br><br>
+
+                I am a software engineer.I work in the field of web development
+                We are here to manage your tasks and check their status. </h3>
+            </h3>
+        </div>
+
         <br><br><br>
-        <h1> &nbsp; Contact Us </h1>
+
 
         <form>
-            <div>
+            <h1 id="con1"> Contact Us </h1>
+            <div class="divform">
                 <label>Name:</label>
                 <input type="text" placeholder="Your Name">
-                
-                <label> &nbsp; &nbsp; Message:</label>
-                <textarea rows="5" placeholder="Your Message"></textarea>
-                <br><br><br>
-                <label> Email:</label>
-                <input type="email" placeholder="Your Email" >
+                <br>
+                <br>
+                <label>Email:</label>
+                <input type="email" placeholder="Your Email">
                 <br><br>
-                <p style="text-align: center;"> <input &nbsp; &nbsp; &nbsp; type="submit" >
-                </p>
+                <label>Phone:</label>
+                <input type="number" placeholder="Your Phone">
+                <br><br>
+                <label>Message:</label>
+                <textarea id="inpmess" rows="5" placeholder="Your Message"> </textarea>
+                <br><br>
+                <input type="submit" value="Send">
             </div>
 
-            
-        
-
-            
-
-
         </form>
-   
-         
+
+
     </main>
     <br><br><br>
-
-    <footer> 
-        <p style="text-align: center;"> © 2024 To Do List. All rights reserved. </p>
+    <footer>
+        <p> © 2024 To Do List. All rights reserved. </p>
     </footer>
 
 </body>
