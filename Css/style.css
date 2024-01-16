@@ -1,13 +1,39 @@
 .nav
 {
     display: flex;
+    justify-content: space-between;
     align-items: center;
-    padding: 5px;
+    padding: 10px;
     background-color: rgb(109, 189, 239);
     color: rgb(255, 255, 255);
     font-family:cursive;
 }
 
+
+
+#hea1{font-size: 200%; margin-right:auto;}
+
+#logo{ width:10%; height:auto}
+
+ul
+{ font-size: xx-large ;
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    margin: 5px; 
+    padding: 20px; 
+}
+
+li{list-style-type:none;margin-right: 20px;}
+
+a:visited
+{
+    color: rgba(35, 84, 107, 0.575);
+}
+a:hover
+{
+    color: rgb(133, 214, 214);
+}
 table
 {
     width: 70%;
@@ -28,8 +54,8 @@ td.tdgreen::before , td.tdred::before
     position: absolute;
     top: 50%;
     left: 50%;
-    width: 250px;
-    height: 30px;
+    width: 50%;
+    height: 30%;
     transform: translate(-50%,-50%);
 }
 
@@ -58,8 +84,9 @@ td,th
 .check
 {
     transform: translate(400%,20%);
-    width: 30px;
-    height: 30px;
+    width: 25px;
+    height: 25px;
+    
 }
 
 
@@ -68,21 +95,10 @@ td,th
 
 /*table{border-spacing: 20px ;border: 1px solid; padding: 8px; text-align: center}*/
 
-center{ font-size: 150%; }
+#centertable{ font-size: 150%; }
 
-
-#hea1{font-size: 200%;}
-
-#logo{ width:10%; height:10%}
-
-ul{ font-size: xx-large ;display: flex; margin: 5px; padding: 20px ; }
-
-#li1{list-style-type:none;margin-right: 400px;}
-
-#li2{ margin-right: 150px; }
 
 #pin{font-size: xx-large; text-align:center;}
-
 
 
 
