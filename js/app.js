@@ -1,5 +1,6 @@
 'use strict';
 
+
 let UserName = prompt("Please Enter your Name:");
 console.log(UserName);
 
@@ -55,3 +56,69 @@ if (!skipMsg) {
 else {
     alert("You choose to skip welcome page");
 }
+
+let arrAnswers = ["Yes", "No", "YES", "NO", "yes", "no"];
+
+
+const question1 = (q1) => {
+    while (true) {
+        let answer = prompt("Do you regularly update your programming skills or learn new technologies?\n you should write (Yes / No)");
+
+        if (arrAnswers.includes(answer)) {
+            alert("Your answer is: " + answer);
+            return answer;
+        }
+        else {
+            alert("Invalid, you should write (Yes / No)");
+        }
+    }
+
+}
+
+const question2 = (q2) => {
+    while (true) {
+        let answer = prompt("Have you created a website using the JavaScript programming language?\n you should write (Yes / No)");
+
+        if (arrAnswers.includes(answer)) {
+            alert("Your answer is: " + answer);
+            return answer;
+        }
+        else {
+            alert("Invalid, you should write (Yes / No)");
+        }
+    }
+
+}
+
+const question3 = (q3) => {
+    while (true) {
+        let answer = prompt("Do you regularly back up your code and project files?\n you should write (Yes / No)");
+
+        if (arrAnswers.includes(answer)) {
+            alert("Your answer is: " + answer);
+            return answer;
+        }
+        else {
+            alert("Invalid, you should write (Yes / No)");
+        }
+    }
+
+}
+
+const answerQ1 = question1();
+const answerQ2 = question2();
+const answerQ3 = question3();
+
+let allAnswer = [answerQ1,answerQ2,answerQ3];
+
+console.log("Do you regularly update your programming skills or learn new technologies ? " + answerQ1);
+console.log("Have you created a website using the JavaScript programming language ? " + answerQ2);
+console.log("Do you regularly back up your code and project files ? " + answerQ3);
+
+console.log(allAnswer);
+
+// var Q1 = prompt("Do you regularly update your programming skills or learn new technologies?\n you should write (Yes / No)");
+
+// var Q2 = prompt("Have you created a website using the JavaScript programming language?");
+
+// var Q3 = prompt("Do you regularly back up your code and project files?");
